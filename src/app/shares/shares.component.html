@@ -1,0 +1,36 @@
+<img class="fullBg" fullpage [src]="page.image">
+
+<mat-card>
+  <mat-card-header>
+    <mat-card-title><h1>{{page.title}}</h1></mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+  </mat-card-content>
+</mat-card>
+<mat-card>
+  <button mat-raised-button (click)="openAddShare()">Добавить акцию</button>
+  <mat-card-content>
+    <div class="tb">
+      <table class="table">
+        <tr>
+          <th>Имя</th>
+          <th>Количество</th>
+          <th>Стартовая цена</th>
+          <th>Максимальная цена</th>
+          <th>Закон распределения</th>
+          <th>Редактировать</th>
+          <th>Удалить</th>
+        </tr>
+        <tr *ngFor="let share of shares">
+          <td>{{ share.name }}</td>
+          <td>{{ share.count }}</td>
+          <td>{{share.start }}</td>
+          <td>{{ share.max }}</td>
+          <td>{{ tolow(share.law) }}</td>
+          <td><button mat-raised-button (click)="openEditShare(share.id)">Редактировать</button></td>
+          <td><button mat-raised-button (click)="openDeleteShare(share.id)">Удалить</button></td>
+        </tr>
+      </table>
+    </div>
+  </mat-card-content>
+</mat-card>

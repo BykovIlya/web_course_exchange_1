@@ -1,0 +1,28 @@
+<img class="fullBg" fullpage [src]="page.image">
+
+<mat-card>
+  <mat-card-header>
+    <mat-card-title><h1>{{page.title}}</h1></mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+  </mat-card-content>
+</mat-card>
+<mat-card>
+  <mat-card-header><button mat-raised-button (click)="openEditAuctionSettings()">Редактировать</button></mat-card-header>
+  <div class="tb">
+    <table class="table">
+      <tr>
+        <td>Время начала</td>
+        <td>{{start}}</td>
+      </tr>
+      <tr>
+        <td>Время окончания</td>
+        <td>{{end}}</td>
+      </tr>
+      <tr>
+        <td>Интервал</td>
+        <td>{{interval}} минут(а/ы)</td>
+      </tr>
+    </table>
+  </div>
+</mat-card>
