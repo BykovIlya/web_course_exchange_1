@@ -1,27 +1,37 @@
-# BykovExchange
+# web_course
+Лабораторные работы по web-программированию. 5 семестр
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
+## Лабораторная работа № 5
+## Администрирование биржи акций
 
-## Development server
+### Установка `npm install`
+### Запуск `npm run start`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Ссылка на отчет: [тут](https://github.com/BykovIlya/web_course_exchange_1/blob/master/lr5_report.odt)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Задачи проекта
 
-## Build
+   
+    1) Разработка интерфейса web-приложения.
+    2) Создание web-сервера на основе express, настройка маршрутов, под-
+    готовка и обработка REST-запросов (серверная часть).
+    3) Создание шаблонов web-страниц, указание путей подключения js-
+    файлов.
+    4) Разработка клиентских js-файлов с использованием библиотек jQuery
+    и jQuery UI.
+    5) Обработка ошибок на сервере с использованием try/catch, функции
+    catch() у промисов и механизма «domain».
+    6) Регистрация и подключение в web-приложение журнала ошибок.
+    7) Создание web-сокета для отправки сообщений всем клиентам.
+    8) Использование статического анализатора Flow для анализа кода.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Основные страницы проекта
 
-## Running unit tests
+### Администратор
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![1](https://github.com/BykovIlya/web_course_auction_2/blob/master/lab4/Screenshot%20from%202018-11-09%2015-21-41.png)
 
-## Running end-to-end tests
+### Карточка картины
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![кк](https://github.com/BykovIlya/web_course_auction_2/blob/master/lab4/Screenshot%20from%202018-11-09%2015-21-55.png)
