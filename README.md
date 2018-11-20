@@ -6,6 +6,7 @@
 
 ### Установка `npm install`
 ### Запуск `npm run start`
+### Сервер `node expess/app.js`
 
 
 Ссылка на отчет: [тут](https://github.com/BykovIlya/web_course_exchange_1/blob/master/lr5_report.odt)
